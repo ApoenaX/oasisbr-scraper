@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "oasisbr-scraper"
+version = "0.1.0"
+description = ""
+authors = ["Jessica Sousa <jcardoso@inf.puc-rio.br>"]
+readme = "README.md"
+packages = [{include = "oasisbr_scraper"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.vulture]
+make_whitelist = true
+min_confidence = 80
+sort_by_size = true
+verbose = true
+paths = ["oasisbr_scraper"]
