@@ -1,10 +1,19 @@
 # oasisbr-scraper
 
+Ferramenta para obter informações do Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto.
 
+## Instalação
 
-## Uso
+```sh
+pip install git+https://github.com/AcademicAI/oasisbr-scraper.git
 
-### Realizando consulta na API
+```
+
+## Biblioteca Python
+
+### Busca simples
+
+Essa ferramenta permite passar parâmetros usados na chamada da API da Oasisbr. Abaixo um exemplo onde pedimos para retornar os 5 primeiros resultados de teses e dissertações ordenados por relevância.
 
 ```python
 from oasisbr_scraper.api import oasis_api
