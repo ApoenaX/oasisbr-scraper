@@ -5,7 +5,7 @@ Ferramenta para obter informações do Portal Brasileiro de Publicações e Dado
 ## Instalação
 
 ```sh
-pip install git+https://github.com/AcademicAI/oasisbr-scraper.git
+pip install git+https://github.com/ApoenaX/oasisbr-scraper.git
 
 ```
 
